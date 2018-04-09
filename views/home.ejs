@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Voting App</title>
+    
+    <!-- BootStrap Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- StyleSheet Link -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBR3HSXPcDNDTnHhG-iV_rTq9TW6R9a_YA",
+            authDomain: "firenode-5276f.firebaseapp.com",
+            databaseURL: "https://firenode-5276f.firebaseio.com",
+            projectId: "firenode-5276f",
+            storageBucket: "firenode-5276f.appspot.com",
+            messagingSenderId: "232780507133"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Voting App</h2>
+
+        <h3>Login With Firebase</h3>
+
+        <img id="google_image" src="">
+        <h2 id="display_name"></h2>
+        <p id="google_email"></p>
+    
+        <button id="google_sign_in" class="btn btn-primary">Sign In with Google</button>
+        <button id="sign_out" class="btn btn-primary my-class">Sign Out</button><br>
+    
+        
+
+        <br><br><br>
+
+        <button id="get_restaurent" class="btn btn-primary">Get Data</button>
+
+    </div>
+
+   
+    
+
+    <script src="./js/firebaseAuth.js"></script>
+    <script src="./js/firebaseVoting.js"></script>
+
+    <script>
+
+       
+        
+
+        
+
+    </script>
+    
+</body>
+</html>
